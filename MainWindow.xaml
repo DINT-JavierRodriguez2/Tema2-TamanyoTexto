@@ -14,6 +14,7 @@
         </TextBlock>
         <RadioButton x:Name="pequenyo" FontSize="12" Tag="rpequenyo" Content="Pequeño" HorizontalAlignment="Left" Margin="156,275,0,0" VerticalAlignment="Top" Click="mouse_Click" Height="53" Width="125">
             <RadioButton.RenderTransform>
+                <!-- Comentario prueba -->
                 <TransformGroup>
                     <ScaleTransform ScaleX="3" ScaleY="3"/>
                     <SkewTransform/>
